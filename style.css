@@ -1,0 +1,374 @@
+ * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f1f1f1;
+            margin: 0;
+        }
+
+        ul {
+            background-color: rgb(0, 0, 0);
+            margin: 0px;
+            padding: 0px;
+        }
+
+        li {
+            display: inline;
+        }
+
+        .social {
+            width: 15px;
+            height: 15px;
+            margin: 5px 10px;
+        }
+
+        .magnify {
+            float: right;
+        }
+
+        .header {
+            background-color: white;
+            padding: 48px 0px;
+        }
+
+        .header h1 {
+            text-align: center;
+            font-size: 48px;
+            font-weight: bold;
+            line-height: 1.5;
+        }
+
+        .header h6 {
+            font-weight: 400;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .header mark {
+            background-color: black;
+            color: white;
+            padding: 0 10px;
+        }
+
+        .jane-pic {
+            width: 100%;
+            height: auto;
+        }
+
+        .fationblog {
+            position: absolute;
+            top: 125%;
+            left: 2%;
+            color: white;
+        }
+
+        .fationblog h4 {
+            font-weight: 400;
+            font-size: 36px;
+            letter-spacing: 4px;
+            margin: 10px 0;
+        }
+
+        .fationblog h1 {
+            font-weight: bolder;
+            font-size: 64px;
+            letter-spacing: 4px;
+            margin: 10px 0;
+        }
+
+        .subscribe {
+            background-color: rgba(255, 255, 255, 0.6);
+            color: black;
+            padding: 12px 24px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .pading {
+            padding: 12px 24px;
+        }
+
+        .main {
+            width: 66.6666%;
+            background-color: white;
+            padding: 12px 24px;
+            margin: 16px 0;
+            display: block;
+            float: left;
+        }
+
+        .title h3,
+        .title h5 {
+            text-align: center;
+        }
+
+        .title span {
+            color: rgba(0, 0, 0, .6);
+        }
+
+        .more-hat img {
+            width: 100%;
+        }
+
+        .more-hat p {
+            text-align: justify;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        .like {
+            font-weight: bold;
+            color: black;
+            background-color: white;
+            border: 1px solid #ccc;
+            text-align: center;
+            cursor: pointer;
+            display: inline-block;
+            padding: 8px 16px;
+        }
+
+        .replies {
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
+            border: none;
+            text-align: center;
+            cursor: pointer;
+            display: inline;
+            padding: 8px 16px;
+            float: right;
+        }
+
+        .replies span {
+            background-color: white;
+            color: black;
+            cursor: pointer;
+            padding: 0 8px;
+        }
+
+        .aside {
+            background-color: #f1f1f1;
+            color: white;
+            float: right;
+            width: 33.333%;
+            padding: 0 16px;
+        }
+
+        .aside1 {
+            background-color: black;
+        }
+
+        .aside1 img {
+            width: 100%;
+            filter: grayscale(75%);
+        }
+
+        .aside1 p,
+        .aside1 h4 {
+            padding: 0.01em 16px;
+        }
+
+        .aside2 h4 {
+            font-weight: 400;
+            margin: 0;
+            font-size: 20px;
+            background-color: black;
+            color: white;
+            padding: 8px 16px;
+            line-height: 1.5;
+        }
+
+        .aside2 {
+            width: 100%;
+            clear: both;
+            color: #000;
+            background-color: #fff;
+        }
+
+        .Popular {
+            list-style-type: none;
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
+            padding: 0;
+            margin: 0;
+        }
+
+        .Popular li {
+            padding: 8px 16px;
+            border-bottom: 1px solid #ddd;
+            display: block;
+        }
+
+        .Popular img {
+            width: 25px;
+            margin-right: 16px;
+            float: left;
+        }
+
+        .titr {
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+
+        .aside3,
+        .aside5,
+        .aside6,
+        .aside7 {
+            width: 100%;
+            clear: both;
+            color: #000;
+            background-color: #fff;
+            line-height: 1.5;
+            margin-bottom: 16px;
+        }
+
+        .aside-Advertise {
+            padding: 16px;
+        }
+
+
+        .aside3 h4,
+        .aside4 h4,
+        .aside5 h4,
+        .aside6 h4,
+        .aside7 h4 {
+            font-weight: 400;
+            margin: 0;
+            font-size: 20px;
+            background-color: black;
+            color: white;
+            padding: 8px 16px;
+            line-height: 1.5;
+        }
+
+        div .Advertise {
+            height: 200px;
+            color: #000;
+            background-color: #f1f1f1;
+            position: relative;
+        }
+
+        .Advertise span {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .tags {
+            color: #000;
+            background-color: #fff;
+            padding: 0.01em 16px;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        .tags span {
+            color: #000;
+            background-color: #f1f1f1;
+            margin-bottom: 16px;
+            font-size: 12px;
+            display: inline-block;
+            padding-left: 8px;
+            padding-right: 8px;
+            text-align: center;
+        }
+
+        p .fashion {
+            color: #fff;
+            background-color: #000;
+            display: inline-block;
+            padding-left: 8px;
+            padding-right: 8px;
+            text-align: center;
+            margin-bottom: 16px;
+            line-height: 1.5;
+        }
+
+        .aside5 img {
+            width: 100%;
+            vertical-align: middle;
+        }
+
+        div .col1 {
+            width: 45%;
+            padding: 0 8px;
+            line-height: 1.5;
+            float: left;
+        }
+
+        div .col2 {
+            width: 45%;
+            padding: 0 8px;
+            line-height: 1.5;
+            float: right;
+        }
+
+        .aside6 ul {
+            background-color: white;
+            padding: 12px;
+        }
+
+        .social-m {
+            width: 20px;
+            height: 20px;
+        }
+
+        .aside7 p {
+            padding: 8px 16px;
+        }
+
+        .aside7 input {
+            width: 100%;
+            border: 1px solid #ccc;
+            padding: 8px 16px;
+            display: block;
+            margin: 0;
+        }
+
+        .aside7 button {
+            color: #fff;
+            background-color: #f44336;
+            display: block;
+            width: 100%;
+            text-align: center;
+            cursor: pointer;
+            padding: 8px 16px;
+            border: none;
+        }
+
+
+        footer {
+            padding: 32px;
+            color: #fff;
+            background-color: #616161;
+            display: block;
+            clear: both;
+        }
+
+        footer button {
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
+            border: none;
+            text-align: center;
+            cursor: pointer;
+            display: inline;
+            padding: 12px 24px;
+            margin-bottom: 16px;
+        }
+
+        hr {
+            border: 0;
+            border-top-color: currentcolor;
+            border-top-style: none;
+            border-top-width: 0px;
+            border-top: 1px solid #eee;
+            margin: 20px 0;
+            box-sizing: content-box;
+            height: 0;
+            overflow: visible;
+        }
